@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFF8B63F2C75CB4300569D9E /* EssenMartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B63E2C75CB4300569D9E /* EssenMartApp.swift */; };
+		DFF8B6412C75CB4300569D9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B6402C75CB4300569D9E /* ContentView.swift */; };
+		DFF8B6432C75CB4600569D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF8B6422C75CB4600569D9E /* Assets.xcassets */; };
+		DFF8B6462C75CB4600569D9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF8B6452C75CB4600569D9E /* Preview Assets.xcassets */; };
+		DFF8B6502C75CB4600569D9E /* EssenMartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B64F2C75CB4600569D9E /* EssenMartTests.swift */; };
+		DFF8B65A2C75CB4600569D9E /* EssenMartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B6592C75CB4600569D9E /* EssenMartUITests.swift */; };
+		DFF8B65C2C75CB4600569D9E /* EssenMartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B65B2C75CB4600569D9E /* EssenMartUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFF8B64C2C75CB4600569D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF8B6332C75CB4300569D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF8B63A2C75CB4300569D9E;
+			remoteInfo = EssenMart;
+		};
+		DFF8B6562C75CB4600569D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF8B6332C75CB4300569D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF8B63A2C75CB4300569D9E;
+			remoteInfo = EssenMart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFF8B63B2C75CB4300569D9E /* EssenMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssenMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF8B63E2C75CB4300569D9E /* EssenMartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssenMartApp.swift; sourceTree = "<group>"; };
+		DFF8B6402C75CB4300569D9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFF8B6422C75CB4600569D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFF8B6452C75CB4600569D9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFF8B64B2C75CB4600569D9E /* EssenMartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssenMartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF8B64F2C75CB4600569D9E /* EssenMartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssenMartTests.swift; sourceTree = "<group>"; };
+		DFF8B6552C75CB4600569D9E /* EssenMartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssenMartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF8B6592C75CB4600569D9E /* EssenMartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssenMartUITests.swift; sourceTree = "<group>"; };
+		DFF8B65B2C75CB4600569D9E /* EssenMartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssenMartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFF8B6382C75CB4300569D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF8B6482C75CB4600569D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF8B6522C75CB4600569D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFF8B6322C75CB4300569D9E = {
+			isa = PBXGroup;
+			children = (
+				DFF8B63D2C75CB4300569D9E /* EssenMart */,
+				DFF8B64E2C75CB4600569D9E /* EssenMartTests */,
+				DFF8B6582C75CB4600569D9E /* EssenMartUITests */,
+				DFF8B63C2C75CB4300569D9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFF8B63C2C75CB4300569D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8B63B2C75CB4300569D9E /* EssenMart.app */,
+				DFF8B64B2C75CB4600569D9E /* EssenMartTests.xctest */,
+				DFF8B6552C75CB4600569D9E /* EssenMartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFF8B63D2C75CB4300569D9E /* EssenMart */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8B63E2C75CB4300569D9E /* EssenMartApp.swift */,
+				DFF8B6402C75CB4300569D9E /* ContentView.swift */,
+				DFF8B6422C75CB4600569D9E /* Assets.xcassets */,
+				DFF8B6442C75CB4600569D9E /* Preview Content */,
+			);
+			path = EssenMart;
+			sourceTree = "<group>";
+		};
+		DFF8B6442C75CB4600569D9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8B6452C75CB4600569D9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFF8B64E2C75CB4600569D9E /* EssenMartTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8B64F2C75CB4600569D9E /* EssenMartTests.swift */,
+			);
+			path = EssenMartTests;
+			sourceTree = "<group>";
+		};
+		DFF8B6582C75CB4600569D9E /* EssenMartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8B6592C75CB4600569D9E /* EssenMartUITests.swift */,
+				DFF8B65B2C75CB4600569D9E /* EssenMartUITestsLaunchTests.swift */,
+			);
+			path = EssenMartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFF8B63A2C75CB4300569D9E /* EssenMart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF8B65F2C75CB4600569D9E /* Build configuration list for PBXNativeTarget "EssenMart" */;
+			buildPhases = (
+				DFF8B6372C75CB4300569D9E /* Sources */,
+				DFF8B6382C75CB4300569D9E /* Frameworks */,
+				DFF8B6392C75CB4300569D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EssenMart;
+			productName = EssenMart;
+			productReference = DFF8B63B2C75CB4300569D9E /* EssenMart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFF8B64A2C75CB4600569D9E /* EssenMartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF8B6622C75CB4600569D9E /* Build configuration list for PBXNativeTarget "EssenMartTests" */;
+			buildPhases = (
+				DFF8B6472C75CB4600569D9E /* Sources */,
+				DFF8B6482C75CB4600569D9E /* Frameworks */,
+				DFF8B6492C75CB4600569D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF8B64D2C75CB4600569D9E /* PBXTargetDependency */,
+			);
+			name = EssenMartTests;
+			productName = EssenMartTests;
+			productReference = DFF8B64B2C75CB4600569D9E /* EssenMartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFF8B6542C75CB4600569D9E /* EssenMartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF8B6652C75CB4600569D9E /* Build configuration list for PBXNativeTarget "EssenMartUITests" */;
+			buildPhases = (
+				DFF8B6512C75CB4600569D9E /* Sources */,
+				DFF8B6522C75CB4600569D9E /* Frameworks */,
+				DFF8B6532C75CB4600569D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF8B6572C75CB4600569D9E /* PBXTargetDependency */,
+			);
+			name = EssenMartUITests;
+			productName = EssenMartUITests;
+			productReference = DFF8B6552C75CB4600569D9E /* EssenMartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFF8B6332C75CB4300569D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					DFF8B63A2C75CB4300569D9E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					DFF8B64A2C75CB4600569D9E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = DFF8B63A2C75CB4300569D9E;
+					};
+					DFF8B6542C75CB4600569D9E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = DFF8B63A2C75CB4300569D9E;
+					};
+				};
+			};
+			buildConfigurationList = DFF8B6362C75CB4300569D9E /* Build configuration list for PBXProject "EssenMart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFF8B6322C75CB4300569D9E;
+			productRefGroup = DFF8B63C2C75CB4300569D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF8B63A2C75CB4300569D9E /* EssenMart */,
+				DFF8B64A2C75CB4600569D9E /* EssenMartTests */,
+				DFF8B6542C75CB4600569D9E /* EssenMartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFF8B6392C75CB4300569D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8B6462C75CB4600569D9E /* Preview Assets.xcassets in Resources */,
+				DFF8B6432C75CB4600569D9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF8B6492C75CB4600569D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF8B6532C75CB4600569D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF8B6372C75CB4300569D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8B6412C75CB4300569D9E /* ContentView.swift in Sources */,
+				DFF8B63F2C75CB4300569D9E /* EssenMartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF8B6472C75CB4600569D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8B6502C75CB4600569D9E /* EssenMartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF8B6512C75CB4600569D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8B65A2C75CB4600569D9E /* EssenMartUITests.swift in Sources */,
+				DFF8B65C2C75CB4600569D9E /* EssenMartUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFF8B64D2C75CB4600569D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF8B63A2C75CB4300569D9E /* EssenMart */;
+			targetProxy = DFF8B64C2C75CB4600569D9E /* PBXContainerItemProxy */;
+		};
+		DFF8B6572C75CB4600569D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF8B63A2C75CB4300569D9E /* EssenMart */;
+			targetProxy = DFF8B6562C75CB4600569D9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFF8B65D2C75CB4600569D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFF8B65E2C75CB4600569D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFF8B6602C75CB4600569D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EssenMart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janbaz.EssenMart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFF8B6612C75CB4600569D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EssenMart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janbaz.EssenMart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFF8B6632C75CB4600569D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janbaz.EssenMartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EssenMart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EssenMart";
+			};
+			name = Debug;
+		};
+		DFF8B6642C75CB4600569D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janbaz.EssenMartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EssenMart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EssenMart";
+			};
+			name = Release;
+		};
+		DFF8B6662C75CB4600569D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janbaz.EssenMartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EssenMart;
+			};
+			name = Debug;
+		};
+		DFF8B6672C75CB4600569D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janbaz.EssenMartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EssenMart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFF8B6362C75CB4300569D9E /* Build configuration list for PBXProject "EssenMart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF8B65D2C75CB4600569D9E /* Debug */,
+				DFF8B65E2C75CB4600569D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF8B65F2C75CB4600569D9E /* Build configuration list for PBXNativeTarget "EssenMart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF8B6602C75CB4600569D9E /* Debug */,
+				DFF8B6612C75CB4600569D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF8B6622C75CB4600569D9E /* Build configuration list for PBXNativeTarget "EssenMartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF8B6632C75CB4600569D9E /* Debug */,
+				DFF8B6642C75CB4600569D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF8B6652C75CB4600569D9E /* Build configuration list for PBXNativeTarget "EssenMartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF8B6662C75CB4600569D9E /* Debug */,
+				DFF8B6672C75CB4600569D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFF8B6332C75CB4300569D9E /* Project object */;
+}
