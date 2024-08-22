@@ -14,6 +14,14 @@
 		DFF8B6502C75CB4600569D9E /* EssenMartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B64F2C75CB4600569D9E /* EssenMartTests.swift */; };
 		DFF8B65A2C75CB4600569D9E /* EssenMartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B6592C75CB4600569D9E /* EssenMartUITests.swift */; };
 		DFF8B65C2C75CB4600569D9E /* EssenMartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B65B2C75CB4600569D9E /* EssenMartUITestsLaunchTests.swift */; };
+		DFF8B6752C75D22200569D9E /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF8B66D2C75D22200569D9E /* Networking.framework */; };
+		DFF8B67C2C75D22200569D9E /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B67B2C75D22200569D9E /* NetworkingTests.swift */; };
+		DFF8B67D2C75D22200569D9E /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF8B66F2C75D22200569D9E /* Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFF8B6802C75D22200569D9E /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF8B66D2C75D22200569D9E /* Networking.framework */; };
+		DFF8B6812C75D22200569D9E /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFF8B66D2C75D22200569D9E /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DFF8B68B2C75D41B00569D9E /* InitialLoadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B68A2C75D41B00569D9E /* InitialLoadResponse.swift */; };
+		DFF8B68D2C76520600569D9E /* InitialLoadResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = DFF8B68C2C76520600569D9E /* InitialLoadResponse.json */; };
+		DFF8B6902C7652AC00569D9E /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B68F2C7652AC00569D9E /* JSONHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +39,42 @@
 			remoteGlobalIDString = DFF8B63A2C75CB4300569D9E;
 			remoteInfo = EssenMart;
 		};
+		DFF8B6762C75D22200569D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF8B6332C75CB4300569D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF8B66C2C75D22200569D9E;
+			remoteInfo = Networking;
+		};
+		DFF8B6782C75D22200569D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF8B6332C75CB4300569D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF8B63A2C75CB4300569D9E;
+			remoteInfo = EssenMart;
+		};
+		DFF8B67E2C75D22200569D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF8B6332C75CB4300569D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF8B66C2C75D22200569D9E;
+			remoteInfo = Networking;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFF8B6852C75D22200569D9E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DFF8B6812C75D22200569D9E /* Networking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DFF8B63B2C75CB4300569D9E /* EssenMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssenMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +87,13 @@
 		DFF8B6552C75CB4600569D9E /* EssenMartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssenMartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF8B6592C75CB4600569D9E /* EssenMartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssenMartUITests.swift; sourceTree = "<group>"; };
 		DFF8B65B2C75CB4600569D9E /* EssenMartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssenMartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFF8B66D2C75D22200569D9E /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF8B66F2C75D22200569D9E /* Networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
+		DFF8B6742C75D22200569D9E /* NetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF8B67B2C75D22200569D9E /* NetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
+		DFF8B68A2C75D41B00569D9E /* InitialLoadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialLoadResponse.swift; sourceTree = "<group>"; };
+		DFF8B68C2C76520600569D9E /* InitialLoadResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InitialLoadResponse.json; sourceTree = "<group>"; };
+		DFF8B68F2C7652AC00569D9E /* JSONHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF8B6802C75D22200569D9E /* Networking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +119,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DFF8B66A2C75D22200569D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF8B6712C75D22200569D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8B6752C75D22200569D9E /* Networking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +143,8 @@
 				DFF8B63D2C75CB4300569D9E /* EssenMart */,
 				DFF8B64E2C75CB4600569D9E /* EssenMartTests */,
 				DFF8B6582C75CB4600569D9E /* EssenMartUITests */,
+				DFF8B66E2C75D22200569D9E /* Networking */,
+				DFF8B67A2C75D22200569D9E /* NetworkingTests */,
 				DFF8B63C2C75CB4300569D9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +155,8 @@
 				DFF8B63B2C75CB4300569D9E /* EssenMart.app */,
 				DFF8B64B2C75CB4600569D9E /* EssenMartTests.xctest */,
 				DFF8B6552C75CB4600569D9E /* EssenMartUITests.xctest */,
+				DFF8B66D2C75D22200569D9E /* Networking.framework */,
+				DFF8B6742C75D22200569D9E /* NetworkingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,7 +197,53 @@
 			path = EssenMartUITests;
 			sourceTree = "<group>";
 		};
+		DFF8B66E2C75D22200569D9E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8B68E2C76528E00569D9E /* Helpers */,
+				DFF8B6892C75D2B100569D9E /* Resources */,
+				DFF8B66F2C75D22200569D9E /* Networking.h */,
+				DFF8B68A2C75D41B00569D9E /* InitialLoadResponse.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DFF8B67A2C75D22200569D9E /* NetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8B67B2C75D22200569D9E /* NetworkingTests.swift */,
+			);
+			path = NetworkingTests;
+			sourceTree = "<group>";
+		};
+		DFF8B6892C75D2B100569D9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8B68C2C76520600569D9E /* InitialLoadResponse.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DFF8B68E2C76528E00569D9E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8B68F2C7652AC00569D9E /* JSONHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DFF8B6682C75D22200569D9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8B67D2C75D22200569D9E /* Networking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		DFF8B63A2C75CB4300569D9E /* EssenMart */ = {
@@ -137,10 +253,12 @@
 				DFF8B6372C75CB4300569D9E /* Sources */,
 				DFF8B6382C75CB4300569D9E /* Frameworks */,
 				DFF8B6392C75CB4300569D9E /* Resources */,
+				DFF8B6852C75D22200569D9E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DFF8B67F2C75D22200569D9E /* PBXTargetDependency */,
 			);
 			name = EssenMart;
 			productName = EssenMart;
@@ -183,6 +301,43 @@
 			productReference = DFF8B6552C75CB4600569D9E /* EssenMartUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		DFF8B66C2C75D22200569D9E /* Networking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF8B6822C75D22200569D9E /* Build configuration list for PBXNativeTarget "Networking" */;
+			buildPhases = (
+				DFF8B6682C75D22200569D9E /* Headers */,
+				DFF8B6692C75D22200569D9E /* Sources */,
+				DFF8B66A2C75D22200569D9E /* Frameworks */,
+				DFF8B66B2C75D22200569D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Networking;
+			productName = Networking;
+			productReference = DFF8B66D2C75D22200569D9E /* Networking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFF8B6732C75D22200569D9E /* NetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF8B6862C75D22200569D9E /* Build configuration list for PBXNativeTarget "NetworkingTests" */;
+			buildPhases = (
+				DFF8B6702C75D22200569D9E /* Sources */,
+				DFF8B6712C75D22200569D9E /* Frameworks */,
+				DFF8B6722C75D22200569D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF8B6772C75D22200569D9E /* PBXTargetDependency */,
+				DFF8B6792C75D22200569D9E /* PBXTargetDependency */,
+			);
+			name = NetworkingTests;
+			productName = NetworkingTests;
+			productReference = DFF8B6742C75D22200569D9E /* NetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +359,14 @@
 						CreatedOnToolsVersion = 15.1;
 						TestTargetID = DFF8B63A2C75CB4300569D9E;
 					};
+					DFF8B66C2C75D22200569D9E = {
+						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
+					};
+					DFF8B6732C75D22200569D9E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = DFF8B63A2C75CB4300569D9E;
+					};
 				};
 			};
 			buildConfigurationList = DFF8B6362C75CB4300569D9E /* Build configuration list for PBXProject "EssenMart" */;
@@ -222,6 +385,8 @@
 				DFF8B63A2C75CB4300569D9E /* EssenMart */,
 				DFF8B64A2C75CB4600569D9E /* EssenMartTests */,
 				DFF8B6542C75CB4600569D9E /* EssenMartUITests */,
+				DFF8B66C2C75D22200569D9E /* Networking */,
+				DFF8B6732C75D22200569D9E /* NetworkingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +409,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DFF8B6532C75CB4600569D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF8B66B2C75D22200569D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8B68D2C76520600569D9E /* InitialLoadResponse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF8B6722C75D22200569D9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,6 +459,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DFF8B6692C75D22200569D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8B68B2C75D41B00569D9E /* InitialLoadResponse.swift in Sources */,
+				DFF8B6902C7652AC00569D9E /* JSONHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF8B6702C75D22200569D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8B67C2C75D22200569D9E /* NetworkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +488,21 @@
 			isa = PBXTargetDependency;
 			target = DFF8B63A2C75CB4300569D9E /* EssenMart */;
 			targetProxy = DFF8B6562C75CB4600569D9E /* PBXContainerItemProxy */;
+		};
+		DFF8B6772C75D22200569D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF8B66C2C75D22200569D9E /* Networking */;
+			targetProxy = DFF8B6762C75D22200569D9E /* PBXContainerItemProxy */;
+		};
+		DFF8B6792C75D22200569D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF8B63A2C75CB4300569D9E /* EssenMart */;
+			targetProxy = DFF8B6782C75D22200569D9E /* PBXContainerItemProxy */;
+		};
+		DFF8B67F2C75D22200569D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF8B66C2C75D22200569D9E /* Networking */;
+			targetProxy = DFF8B67E2C75D22200569D9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,6 +629,7 @@
 		DFF8B6602C75CB4600569D9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +658,7 @@
 		DFF8B6612C75CB4600569D9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +756,107 @@
 			};
 			name = Release;
 		};
+		DFF8B6832C75D22200569D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.janbaz.Networking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFF8B6842C75D22200569D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.janbaz.Networking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFF8B6872C75D22200569D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janbaz.NetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EssenMart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EssenMart";
+			};
+			name = Debug;
+		};
+		DFF8B6882C75D22200569D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janbaz.NetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EssenMart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EssenMart";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -577,6 +892,24 @@
 			buildConfigurations = (
 				DFF8B6662C75CB4600569D9E /* Debug */,
 				DFF8B6672C75CB4600569D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF8B6822C75D22200569D9E /* Build configuration list for PBXNativeTarget "Networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF8B6832C75D22200569D9E /* Debug */,
+				DFF8B6842C75D22200569D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF8B6862C75D22200569D9E /* Build configuration list for PBXNativeTarget "NetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF8B6872C75D22200569D9E /* Debug */,
+				DFF8B6882C75D22200569D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
