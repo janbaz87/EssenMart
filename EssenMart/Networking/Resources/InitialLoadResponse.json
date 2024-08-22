@@ -1,0 +1,84 @@
+{
+  "banners": [
+    "https://via.placeholder.com/1500x500?text=Banner+1",
+    "https://via.placeholder.com/1500x500?text=Banner+2",
+    "https://via.placeholder.com/1500x500?text=Banner+3"
+  ],
+  "vouchers": [
+    {
+      "discountAmount": 10,
+      "voucherType": "Percentage"
+    },
+    {
+      "discountAmount": 5,
+      "voucherType": "Fixed"
+    }
+  ],
+  "flashSales": [
+    {
+      "iconUrl": "https://via.placeholder.com/100x100?text=Flash+Sale+1",
+      "newPrice": 49.99,
+      "oldPrice": 99.99
+    },
+    {
+      "iconUrl": "https://via.placeholder.com/100x100?text=Flash+Sale+2",
+      "newPrice": 19.99,
+      "oldPrice": 39.99
+    },
+    {
+      "iconUrl": "https://via.placeholder.com/100x100?text=Flash+Sale+3",
+      "newPrice": 29.99,
+      "oldPrice": 59.99
+    }
+  ],
+  "categories": [
+    {
+      "iconUrl": "https://via.placeholder.com/100x100?text=Electronics",
+      "categoryName": "Electronics"
+    },
+    {
+      "iconUrl": "https://via.placeholder.com/100x100?text=Fashion",
+      "categoryName": "Fashion"
+    },
+    {
+      "iconUrl": "https://via.placeholder.com/100x100?text=Home+%26+Garden",
+      "categoryName": "Home & Garden"
+    },
+    {
+      "iconUrl": "https://via.placeholder.com/100x100?text=Sports",
+      "categoryName": "Sports"
+    }
+  ],
+  "freeShipping": [
+    {
+      "oldPrice": 29.99,
+      "newPrice": 24.99
+    },
+    {
+      "oldPrice": 15.99,
+      "newPrice": 12.99
+    },
+    {
+      "oldPrice": 49.99,
+      "newPrice": 39.99
+    }
+  ],
+  "segments": [
+    {
+      "name": "Top Picks",
+      "identifier": "segment1"
+    },
+    {
+      "name": "Best Sellers",
+      "identifier": "segment2"
+    },
+    {
+      "name": "New Arrivals",
+      "identifier": "segment3"
+    },
+    {
+      "name": "Discounted Items",
+      "identifier": "segment4"
+    }
+  ]
+}
