@@ -7,10 +7,9 @@
 
 import Foundation
 
-class JSONHelper {
+class LocalFileHelper {
 
-    // Generic method to fetch and decode JSON data from a file
-    static func fetch<T: Decodable>(_ fileName: String, as type: T.Type) -> T? {
+    static func fetchData(_ fileName: String) -> Data? {
         // Ensure the file exists in the bundle
         guard let url = Bundle.main.url(forResource: fileName, withExtension: "json") else {
             print("Failed to locate \(fileName).json in bundle.")
@@ -23,15 +22,7 @@ class JSONHelper {
             return nil
         }
 
-        // Decode the data into the specified type
-        let decoder = JSONDecoder()
-        do {
-            let result = try decoder.decode(T.self, from: data)
-            return result
-        } catch {
-            print("Failed to decode \(fileName).json: \(error.localizedDescription)")
-            return nil
-        }
+        return data
     }
 }
 
